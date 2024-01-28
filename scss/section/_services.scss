@@ -1,0 +1,711 @@
+// 08. services page css here
+.services_logistics_section{
+    margin-bottom: 160px;
+    @media #{$tablet-device}{
+        margin-bottom: 71px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 55px;
+    }
+}
+.logistics_title{
+    text-align: right;
+    padding-right: 64px;
+    @media #{$laptop-device}{
+        padding-right: 40px;
+    }
+    @media #{$desktop-device}{
+        padding-right: 20px;
+    }
+    @media #{$tablet-device}{
+        padding-right: 0;
+    }
+    @media #{$large-mobile}{
+        padding-right: 0;
+    }
+    @media #{$small-mobile2}{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+.services_logistics_text{
+    @media #{$small-mobile2}{
+        text-align: center;
+    }
+    & h3{
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 600;
+        margin-bottom: 38px;
+        @media #{$tablet-device}{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        @media #{$large-mobile}{
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 12px;
+        }
+    }
+    & p{
+        font-size: 18px;
+        line-height: 36px;
+        color: #21211e;
+        @media #{$tablet-device}{
+            font-size: 16px;
+            line-height: 30px;
+        }
+        @media #{$large-mobile}{
+            font-size: 15px;
+            line-height: 28px;
+        }
+        &.mb-35{
+            @media #{$tablet-device}{
+                margin-bottom: 20px;
+            }
+            @media #{$large-mobile}{
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
+.services_page_section {
+    &.mb-180{
+        @media #{$tablet-device}{
+            margin-bottom: 80px;
+        }
+        @media #{$large-mobile}{
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.services_left{
+    height: 100%;
+    background: #f6f6f6;
+    padding: 15px 48px 15px 70px;
+    @media #{$desktop-device}{
+        padding: 15px 15px 15px 28px;
+    }
+    @media #{$tablet-device}{
+        padding: 15px;
+    }
+    @media #{$large-mobile}{
+        padding: 10px;
+    }
+    @media #{$small-mobile2}{
+        padding: 20px;
+        justify-content: center;
+    }
+}
+.single_services {
+    &.style1{
+        & .services_thumb {
+            @media #{$small-mobile2}{
+                margin-top: 30px;
+            }
+        }
+    }
+    &.style2{
+        & .services_thumb {
+            @media #{$small-mobile2}{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+.services_content{
+    @media #{$small-mobile2}{
+        text-align: center;
+    }
+    & h4{
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-bottom: 28px;
+        @media #{$desktop-device}{
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        @media #{$tablet-device}{
+            font-size: 19px;
+            line-height: 27px;
+            margin-bottom: 13px;
+        }
+        @media #{$large-mobile}{
+            font-size: 16px;
+            line-height: 23px;
+            margin-bottom: 6px;
+        }
+    }
+    & p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #666666;
+        @media #{$tablet-device}{
+            font-size: 14px;
+            line-height: 22px;
+        }
+        @media #{$large-mobile}{
+            font-size: 13px;
+            line-height: 20px;
+        }
+    }
+}
+
+.services_icon_img{
+    margin-bottom: 66px;
+    @media #{$desktop-device}{
+        margin-bottom: 30px;
+    }
+    @media #{$tablet-device}{
+        margin-bottom: 20px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 12px;
+    }
+    & img{
+        @media #{$tablet-device}{
+            max-width: 55px;
+        }
+        @media #{$large-mobile}{
+            max-width: 40px;
+        }
+    }
+}
+
+.services_counterup{
+    margin-bottom: 198px;
+    @media #{$tablet-device}{
+        margin-bottom: 75px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 25px;
+    }
+    & .counterup_inner {
+        padding: 0;
+        @media #{$large-mobile}{
+            flex-wrap: wrap;
+        }
+    }
+    & .single_text{
+        text-align: left;
+        padding-right: 0;
+        margin-right: 0;
+        width: 33.33%;
+        @media #{$large-mobile}{
+            margin-bottom: 30px;
+            width: 50%;
+        }
+        @media #{$small-mobile2}{
+            width: 100%;
+            justify-content: center;
+        }
+        &::before{
+            display: none;
+        }
+        & h3{
+            margin-bottom: 0;
+            font-size: 50px;
+            line-height: 50px;
+            @media #{$desktop-device}{
+                font-size: 45px;
+                line-height: 45px;
+            }
+            @media #{$tablet-device}{
+                font-size: 33px;
+                line-height: 35px;
+            }
+            @media #{$large-mobile}{
+                font-size: 35px;
+                line-height: 35px;
+            }
+            @media #{$small-mobile2}{
+                font-size: 30px;
+                line-height: 30px;
+            }
+ 
+        }
+        & span{
+            font-size: 16px;
+            line-height: 24px;
+            color: #999999;
+            margin-left: 27px;
+            @media #{$desktop-device}{
+                font-size: 15px;
+                line-height: 23px;
+                margin-left: 23px;
+            }
+            @media #{$tablet-device}{
+                font-size: 14px;
+                line-height: 22px;
+                margin-left: 15px;
+            }
+            @media #{$large-mobile}{
+                font-size: 14px;
+                line-height: 22px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+// single services page css here
+.hero_banner2{
+    margin-bottom: 110px;
+    @media #{$tablet-device}{
+        margin-bottom: 79px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 58px;
+    }
+}
+.services_details_section {
+    &.mb-170{
+        @media #{$tablet-device}{
+            margin-bottom: 80px;
+        }
+        @media #{$large-mobile}{
+            margin-bottom: 60px;
+        }
+    }
+}
+.services_sidebar{
+    @media #{$large-mobile}{
+        margin-bottom: 55px;
+    }
+}
+.services_widget_list{
+    margin-bottom: 38px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 30px;
+    }
+}
+.services_widget_category{
+    & h3{
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 24px;
+        @media #{$desktop-device}{
+            font-size: 25px;
+            line-height: 25px;
+        }
+        @media #{$tablet-device}{
+            font-size: 23px;
+            line-height: 23px;
+            margin-bottom: 20px;
+        }
+        @media #{$large-mobile}{
+            font-size: 22px;
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+    }
+    & ul{
+        & li{
+            &:last-child{
+                & a{
+                    border-bottom: 0;
+                }
+            }
+            & a{
+                font-size: 14px;
+                line-height: 40px;
+                color: #666666;
+                display: block;
+                text-transform: uppercase;
+                border-bottom: 1px solid #ccdbe2;
+                & i{
+                    float: right;
+                    color: #024b6c;
+                    font-size: 16px;
+                }
+                &:hover{
+                    color: #402d90;
+                    & i{
+                        color: $secondary_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.services_widget_text{
+    padding: 40px;
+    background: #f7f7f7;
+    @media #{$desktop-device}{
+        padding: 30px 25px;
+    }
+    @media #{$tablet-device}{
+        padding: 25px;
+    }
+    @media #{$small-mobile2}{
+        padding: 20px;
+    }
+    & h3{
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: capitalize;  
+        margin-bottom: 18px; 
+        @media #{$desktop-device}{
+            font-size: 22px;
+            line-height: 27px;
+        } 
+        @media #{$tablet-device}{
+            font-size: 20px;
+            line-height: 23px;
+            margin-bottom: 15px;
+        }
+        @media #{$large-mobile}{
+            font-size: 21px;
+            line-height: 25px;
+            margin-bottom: 14px;
+        }
+    }
+    & p{
+        font-size: 15px;
+        line-height: 26px;
+        color: #999999;
+        margin-bottom: 30px;
+        @media #{$tablet-device}{
+            font-size: 14px;
+            line-height: 26px;
+            margin-bottom: 25px;
+        }
+    }
+    & ul{
+        & li{
+            margin-bottom: 18px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            & a{
+                font-size: 16px;
+                line-height: 24px;
+                text-transform: capitalize;
+                font-weight: 500;
+                @media #{$tablet-device}{
+                    font-size: 15px;
+                }
+                &:hover{
+                    color: $secondary_color;
+                    & img{
+                        display: none;
+                        &.hover{
+                            display: inline-block
+
+                        }
+                    }
+                }
+                & img.hover{
+                    display: none;
+                }
+                & img{
+                    margin-right: 18px;
+                    @media #{$tablet-device}{
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.services_widget_enquiry{
+    padding: 40px;
+    background: #402d90;
+    @media #{$desktop-device}{
+        padding: 30px 25px;
+    }
+    @media #{$tablet-device}{
+        padding: 25px;
+    }
+    @media #{$small-mobile2}{
+        padding: 20px;
+    }
+    & h3{
+        font-size: 24px;
+        line-height: 30px;
+        color: #ffffff;
+        font-weight: 700;
+        margin-bottom: 25px;
+        @media #{$desktop-device}{
+            font-size: 22px;
+            line-height: 28px;
+        }
+        @media #{$tablet-device}{
+            font-size: 20px;
+            line-height: 27px;
+            margin-bottom: 20px;
+        }
+        @media #{$large-mobile}{
+            font-size: 21px;
+            line-height: 25px;
+            margin-bottom: 19px;
+        }
+    }
+    & p{
+        font-size: 15px;
+        line-height: 25px;
+        color: #cccccc;
+        margin-bottom: 13px;
+        @media #{$tablet-device}{
+            font-size: 14px;
+            line-height: 22px;
+        }
+    }
+    & a{
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 36px;
+        display: block;
+        &:hover{
+            color: $secondary_color;
+        }
+        @media #{$small-mobile2}{
+            font-size: 15px;
+            line-height: 20px;
+            margin-bottom: 25px;
+        }
+    }
+    & button.btn.btn-link{
+        text-transform: uppercase;
+        font-size: 14px;
+        line-height: 48px;
+        height: 48px;
+        padding: 0 28px;
+        @media #{$tablet-device}{
+            line-height: 44px;
+            height: 44px;
+            padding: 0 18px;
+        }
+        @media #{$small-mobile2}{
+            line-height: 40px;
+            height: 40px;
+            padding: 0 20px;
+        }
+    }
+}
+
+.services_details_desc{
+    margin-bottom: 45px;
+    @media #{$large-mobile}{
+        margin-bottom: 30px;
+    }
+    & p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #666666;
+        margin-bottom: 23px;
+        &:last-child{
+            margin: 0;
+        }
+    }
+}
+.services_details_gallery {
+    margin-bottom: 62px;
+    @media #{$large-mobile}{
+        margin-bottom: 58px;
+    }
+}
+.services_details_thumb{
+    margin-right: 12px;
+    overflow: hidden;
+    &:last-child{
+        margin-right: 0;
+    }
+    &:hover{
+        & img{
+            transform: scale(1.1);
+        }
+    }
+    & img{
+        transition: .3s;
+    }
+}
+.specific_services{
+    margin-bottom: 70px;
+    @media #{$tablet-device}{
+        margin-bottom: 40px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 33px;
+    }
+}
+.specific_services{
+    & > h2{
+        font-size: 24px;
+        line-height: 24px;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: 30px;
+        @media #{$tablet-device}{
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 25px;
+        }
+        @media #{$large-mobile}{
+            font-size: 20px;
+            margin-bottom: 24px;
+        }
+    }
+}
+.specific_services_list{
+    padding: 38px 25px 35px 35px;
+    border: 1px solid #d9d9d9;
+    @media #{$tablet-device}{
+        padding: 26px 20px 26px 24px;
+        margin-bottom: 25px;
+    }
+    @media #{$large-mobile}{
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    & i{
+        font-size: 36px;
+        color: $secondary_color;
+        margin-bottom: 35px;
+        display: inline-block;
+        @media #{$tablet-device}{
+            margin-bottom: 28px;
+        }
+        @media #{$large-mobile}{
+            font-size: 32px;
+            margin-bottom: 23px;
+        }
+    }
+    & h3{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    & p{
+        font-size: 14px;
+        line-height: 24px;
+        color: #999999;
+    }
+}
+.frequently_title{
+    margin-bottom: 33px;
+    @media #{$tablet-device}{
+        margin-bottom: 28px;
+    }
+    @media #{$large-mobile}{
+        margin-bottom: 22px;
+    }
+    & h2{
+        font-size: 30px;
+        line-height: 30px;
+        font-weight: 600;
+        margin-bottom: 0;
+        @media #{$desktop-device}{
+            font-size: 27px;
+            line-height: 27px;
+        }
+        @media #{$tablet-device}{
+            font-size: 24px;
+            line-height: 24px;
+        }
+        @media #{$large-mobile}{
+            font-size: 22px;
+            line-height: 24px;
+        }
+        @media #{$small-mobile2}{
+            font-size: 20px;
+            line-height: 22px;
+        }
+    }
+}
+
+.frequently_questions_list{
+    border: 0;
+    margin-bottom: 22px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+    & .card-header{
+        padding: 0;
+        border: 0;
+        background: inherit;
+        
+        
+        & h2{
+            font-size: 21px;
+            line-height: 28px;
+            font-weight: 600;
+            padding-right: 35px;
+            position: relative;
+            cursor: pointer;
+            &::before{
+                position: absolute;
+                content: "\e646";
+                font-family: 'themify';
+                right: 0;
+                top: 50%;
+                transform: translatey(-50%);
+                font-size: 20px;
+                color: $secondary_color;
+                @media #{$large-mobile}{
+                    font-size: 16px;
+                }
+            }
+            &.collapsed{
+                &::before{
+                    content: "\e64b";
+                    color: #666666;
+                }
+            }
+            @media #{$desktop-device}{
+                font-size: 18px;
+            }
+            @media #{$tablet-device}{
+                font-size: 18px;
+            }
+            @media #{$large-mobile}{
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+    & .card-body{
+        padding: 15px 15px 6px;
+        & p{
+            font-size: 14px;
+            line-height: 24px;
+            color: #666666;
+        }
+    }
+}
+
+.view_all_questions{
+    margin-top: 50px;
+    @media #{$large-mobile}{
+        margin-top: 25px;
+    }
+    & a{
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: capitalize;
+        font-weight: 500;
+        display: inline-block;
+        border-bottom: 1px solid #000000;
+        &:hover{
+            color: $secondary_color;
+            border-color: $secondary_color;
+        }
+    }
+}
